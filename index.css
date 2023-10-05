@@ -1,0 +1,101 @@
+  .stage {
+    background: black;
+    height: 100vh;
+    position: relative;
+    min-width: 538px;
+    padding-top: 30px;
+  }
+  .stage .nike{
+    background-color: #DEA514;
+    border-radius: 9px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+.stage .nike .section1{
+    background-color: #DEA514;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stage .nike .section1 .nikeshoes img{
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    top: 190px;
+    right: 0px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+img:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+.stage .nike .section1 .nikelogo img{
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+}
+.stage .nike .section2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.stage .nike .section2 h1{
+    display: flex;
+    flex-direction: row;
+}
+.stage .nike .section2 h1 button{
+    width: 40px;
+    height: 25px;
+    background-color: rgb(48,196,141);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.stage .nike .section2 .stars a{
+    color: black;
+}
+.stage .nike .section2 .sizes a{
+    display: inline;
+    flex-direction: row;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+.stage .nike .section2 .sizes a:hover{
+    background-color: mediumaquamarine;
+    border-radius: 50px;
+}
+.stage .nike .section2 .colors .ball1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #223E63;
+}
+.stage .nike .section2 .colors{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    bottom: 20px;
+}
+.stage .nike .section2 .colors .ball2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #94243D;
+}
+@keyframes bounce {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-50px); }
+}
